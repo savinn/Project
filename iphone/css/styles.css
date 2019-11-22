@@ -158,16 +158,8 @@
 }
 
 .spann {
-  text-align: center;
-  height: 23px;
-  opacity: 0.8;
-  font-family: sans-serif;
   font-size: 18px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #000000;
 }
 
@@ -278,38 +270,22 @@
   padding-top: 150px;
 }
 
+.colum-left {
+  padding-left: 200px;
+}
+
 .first-left-comment {
-  width: 260px;
   height: 112px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.08);
 }
 
 .i-use {
-  width: 230px;
-  height: 40px;
-  opacity: 0.8;
-  font-family: SourceSansPro;
-  font-size: 13px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.54;
-  letter-spacing: normal;
   color: #ffffff;
 }
 
 .data-1 {
-  width: 230px;
-  height: 15px;
-  opacity: 0.5;
-  font-family: SourceSansPro;
   font-size: 12px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #ffffff;
 }
 
@@ -320,44 +296,25 @@
   background-color: rgba(255, 255, 255, 0.08);
 }
 
+.img-tweet-1 {
+  background-color: white;
+  border-radius: 15px;
+}
+
 .second-name {
-  width: 73px;
-  height: 15px;
-  font-family: SourceSansPro;
   font-size: 12px;
   font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #ffffff;
 }
 
 .data-2 {
-  width: 230px;
-  height: 15px;
-  opacity: 0.5;
-  font-family: SourceSansPro;
   font-size: 12px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #ffffff;
 }
 
 .showTrack-comment {
   width: 230px;
-  height: 80px;
-  opacity: 0.8;
-  font-family: SourceSansPro;
   font-size: 13px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.54;
-  letter-spacing: normal;
   color: #ffffff;
 }
 
@@ -368,45 +325,20 @@
   background-color: rgba(255, 255, 255, 0.08);
 }
 
+.img-tweet-2 {
+  background-color: white;
+  border-radius: 15px;
+}
+
 .third-name {
-  width: 72px;
-  height: 15px;
-  font-family: SourceSansPro;
   font-size: 12px;
   font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #ffffff;
 }
 
 .I-use {
   width: 230px;
-  height: 40px;
-  opacity: 0.8;
-  font-family: SourceSansPro;
   font-size: 13px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.54;
-  letter-spacing: normal;
-  color: #ffffff;
-}
-
-.data-3 {
-  width: 230px;
-  height: 15px;
-  opacity: 0.5;
-  font-family: SourceSansPro;
-  font-size: 12px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #ffffff;
 }
 
 .fourth-left-comment {
@@ -416,45 +348,30 @@
   background-color: rgba(255, 255, 255, 0.08);
 }
 
+.img-tweet-3 {
+  background-color: white;
+  border-radius: 15px;
+}
+
 .fourth-name {
-  width: 77px;
-  height: 15px;
-  font-family: SourceSansPro;
   font-size: 12px;
   font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #ffffff;
 }
 
 .show-track-comment-2 {
   width: 230px;
-  height: 80px;
-  opacity: 0.8;
-  font-family: SourceSansPro;
   font-size: 13px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.54;
-  letter-spacing: normal;
   color: #ffffff;
 }
 
 .data-4 {
-  width: 230px;
-  height: 15px;
-  opacity: 0.5;
-  font-family: SourceSansPro;
   font-size: 12px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #ffffff;
+}
+
+.colum-right {
+  padding-left: 60px;
 }
 
 .first-right-comment {
@@ -464,44 +381,26 @@
   background-color: rgba(255, 255, 255, 0.08);
 }
 
+.img-tweet-4 {
+  background-color: white;
+  border-radius: 15px;
+}
+
 .first-right-name {
-  width: 68px;
-  height: 15px;
-  font-family: SourceSansPro;
   font-size: 12px;
   font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #ffffff;
 }
 
 .right-ShowTrack {
   width: 230px;
-  height: 80px;
-  opacity: 0.8;
-  font-family: SourceSansPro;
   font-size: 13px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.54;
-  letter-spacing: normal;
   color: #ffffff;
 }
 
 .data-5 {
-  width: 230px;
-  height: 15px;
-  opacity: 0.5;
-  font-family: SourceSansPro;
   font-size: 12px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #ffffff;
 }
 
@@ -512,44 +411,25 @@
   background-color: rgba(255, 255, 255, 0.08);
 }
 
+.img-tweet-5 {
+  background-color: white;
+  border-radius: 15px;
+}
+
 .second-right-name {
-  width: 84px;
-  height: 15px;
-  font-family: SourceSansPro;
   font-size: 12px;
   font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #ffffff;
 }
 
 .i-use {
   width: 230px;
-  height: 40px;
-  opacity: 0.8;
-  font-family: SourceSansPro;
   font-size: 13px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.54;
-  letter-spacing: normal;
   color: #ffffff;
 }
 
 .data-6 {
-  width: 230px;
-  height: 15px;
-  opacity: 0.5;
-  font-family: SourceSansPro;
   font-size: 12px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #ffffff;
 }
 
@@ -560,16 +440,14 @@
   background-color: rgba(255, 255, 255, 0.08);
 }
 
+.img-tweet-6 {
+  background-color: white;
+  border-radius: 15px;
+}
+
 .third-right-name {
-  width: 75px;
-  height: 15px;
-  font-family: SourceSansPro;
   font-size: 12px;
   font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #ffffff;
 }
 
@@ -588,16 +466,7 @@
 }
 
 .data-7 {
-  width: 230px;
-  height: 15px;
-  opacity: 0.5;
-  font-family: SourceSansPro;
   font-size: 12px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #ffffff;
 }
 
@@ -607,30 +476,20 @@
   background-color: rgba(255, 255, 255, 0.08);
 }
 
+.img-tweet-7 {
+  background-color: white;
+  border-radius: 15px;
+}
+
 .fourth-right-name {
-  width: 69px;
-  height: 15px;
-  font-family: SourceSansPro;
+  color: white;
   font-size: 12px;
   font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #ffffff;
 }
 
 .i-use-show {
   width: 230px;
-  height: 30px;
-  opacity: 0.8;
-  font-family: SourceSansPro;
   font-size: 13px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.54;
-  letter-spacing: normal;
   color: #ffffff;
 }
 
