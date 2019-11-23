@@ -792,3 +792,11 @@
     margin-left: 0px;
   }
 }
+@media (max-width: 768px) {
+  .colum-left {
+    display: flex;
+    flex-direction: row;
+    margin-left: -220px;
+    margin-top: 80px;
+  }
+}
