@@ -654,3 +654,141 @@
   height: 30px;
   background-color: blue;
 }
+
+@media (max-width: 768px) {
+  .menu-center {
+    display: none;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 768px) {
+  .mario {
+    display: inline;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .net {
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .log-in {
+    display: none;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .foot {
+    flex-direction: column;
+    width: 360px;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .bui-show {
+    flex-direction: column;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .down {
+    display: none;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 768px) {
+  .up {
+    display: none;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .black {
+    overflow: hidden;
+    flex-direction: column;
+    width: 360px;
+    margin-right: auto;
+  }
+}
+@media (max-width: 768px) {
+  .colu-right {
+    display: none;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .colum-left {
+    flex-wrap: nowrap;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 768px) {
+  .black-left {
+    flex-direction: column;
+    width: 360px;
+    margin-left: -170px;
+    margin-right: auto;
+  }
+}
+@media (max-width: 768px) {
+  .bui {
+    width: 200px;
+    font-size: 40px;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .show {
+    margin-left: -70px;
+    font-size: 21px;
+    width: 340px;
+    padding-left: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .we {
+    flex-direction: column;
+    width: 343px;
+    margin-left: 170px;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .we {
+    margin-left: 165px;
+    width: 343px;
+  }
+}
+@media (max-width: 768px) {
+  .order {
+    margin-left: 0px;
+  }
+}
