@@ -250,6 +250,7 @@
 }
 
 .roll {
+  overflow: auto;
   margin-top: 150px;
   display: flex;
   justify-content: space-between;
@@ -627,9 +628,6 @@
   margin-top: 150px;
 }
 
-.last {
-  margin-top: 50px;
-  text-align: center;
 }
 
 .ssb {
@@ -812,7 +810,7 @@
 }
 @media (max-width: 768px) {
   .roll {
-    margin-tpo: 20px;
+    margin-top: 20px;
   }
 }
 @media (max-width: 768px) {
@@ -823,22 +821,106 @@
 }
 @media (max-width: 768px) {
   .order {
+    width: 343px;
     margin-left: 0px;
   }
 }
 @media (max-width: 768px) {
   .tree-center{
     
-    margin-top: 70px;
+    margin-top: 20px;
   }
 }
-@media (max-width: 768px) {
-  .lear-1 ,.lear-2, .lear-3 {
-    margin-top: 0px;
-  }
-}
+
 @media (max-width: 768px) {
   .esc-1, .esc-2, .esc-3, .esc-4, .esc-5 {
     display: none;
+  }
+}
+@media (max-width: 768px) {
+  .robot {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .tree-left {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .trac-you {
+    margin-top: 13px;
+  }
+}
+@media (max-width: 768px) {
+  .lear-1 {
+    margin-top: -50px;
+  }
+}
+@media (max-width: 768px) {
+  .get-recom{
+    margin-top: 13px;
+    line-height: 1.5;
+    font-size: 13px;
+  }
+}@media (max-width: 768px) {
+  .lear-2 {
+   padding-top: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .rec {
+    margin-top: 13px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+}
+@media (max-width: 768px) {
+  .lear-3 {
+ padding-top: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .tree-right {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .easy {
+    width: 343px;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .since {
+   margin-top: -25px;
+  }
+}
+@media (max-width: 768px) {
+  .get-started {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .tv{
+    width: 490px;
+  }
+}
+@media (max-width: 768px) {
+  .good-man{
+   margin-top: 100px;
+   width: 343px;
+  }
+}
+@media (max-width: 768px) {
+  .copy{
+    margin-top: 0px;
+    font-size: 0px;
+  
+}
+@media (max-width: 768px) {
+  .last{
+    margin-top: 20px;
+
   }
 }
