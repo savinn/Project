@@ -206,11 +206,12 @@
 }
 
 .trac-you {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.5;
 }
 
 .lear-1 {
+  padding-top: 40px;
   font-weight: 600;
 }
 
@@ -219,8 +220,8 @@
 }
 
 .get-recom {
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 13px;
+  line-height: 4.6;
 }
 
 .lear-2 {
@@ -233,19 +234,19 @@
 }
 
 .rec {
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 13px;
+  line-height: 3.2;
 }
 
 .lear-3 {
-  padding-top: 16px;
+  padding-top: 33px;
   font-weight: 600;
 }
 
 .foot {
   padding-top: 45px;
   display: flex;
-  justify-content: space-ar;
+  justify-content: space-between;
 }
 
 .roll {
@@ -257,6 +258,10 @@
 .doom {
   margin-top: 150px;
   display: flex;
+}
+
+.doom-right {
+  margin-left: 200px;
 }
 
 .black {
@@ -271,7 +276,7 @@
 }
 
 .colum-left {
-  padding-left: 200px;
+  margin-left: 300px;
 }
 
 .first-left-comment {
@@ -368,10 +373,6 @@
 .data-4 {
   font-size: 12px;
   color: #ffffff;
-}
-
-.colum-right {
-  padding-left: 60px;
 }
 
 .first-right-comment {
@@ -521,6 +522,14 @@
   margin-top: 20px;
 }
 
+.up-down2 {
+  margin-top: 30px;
+}
+
+.up-down3 {
+  margin-top: 30px;
+}
+
 .go1 {
   width: 20px;
   height: 20px;
@@ -528,16 +537,8 @@
 }
 
 .cust {
-  width: 159px;
-  height: 20px;
   font-family: sans-serif;
-  font-size: 16px;
   font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #000000;
 }
 
 .go2 {
@@ -548,16 +549,8 @@
 }
 
 .auto {
-  width: 203px;
-  height: 20px;
   font-family: sans-serif;
-  font-size: 16px;
   font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #000000;
 }
 
 .go3 {
@@ -568,18 +561,9 @@
 }
 
 .int {
-  width: 171px;
-  height: 20px;
   font-family: sans-serif;
-  font-size: 16px;
   font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #000000;
 }
-
 .up {
   margin-top: -330px;
 }
@@ -616,13 +600,12 @@
 }
 
 .order {
-  margin-left: 350px;
+  margin-left: 500px;
   text-align: center;
   width: 610px;
   height: 96px;
   font-size: 21px;
   line-height: 1.52;
-  color: #000000;
 }
 
 .last {
@@ -663,6 +646,15 @@
     margin-right: auto;
   }
 }
+
+@media (max-width: 768px) {
+  .all {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media (max-width: 768px) {
   .mario {
     display: inline;
@@ -774,17 +766,59 @@
 }
 @media (max-width: 768px) {
   .we {
-    flex-direction: column;
-    width: 343px;
-    margin-left: 170px;
-    margin-right: auto;
+    width: 300px;
+    text-align: center;
   }
 }
 
 @media (max-width: 768px) {
-  .we {
-    margin-left: 165px;
-    width: 343px;
+  .our {
+    
+    width: 300px;
+    padding-left: 40px;
+  }
+}
+
+}
+@media (max-width: 768px) {
+  .third-left-comment {
+    margin-left: -30px;
+    margin-top: 5px;
+   
+  }
+}
+
+@media (max-width: 768px) {
+  .second-left-comment {
+    
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .fourth-left-comment {
+    
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .colum-left {
+    display: flex;
+    flex-direction: row;
+    margin-left: -220px;
+    margin-top: 80px;
+  }
+}
+@media (max-width: 768px) {
+  .roll {
+    margin-tpo: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .doom{
+   
+    margin-top: 20px;
   }
 }
 @media (max-width: 768px) {
@@ -793,10 +827,18 @@
   }
 }
 @media (max-width: 768px) {
-  .colum-left {
-    display: flex;
-    flex-direction: row;
-    margin-left: -220px;
-    margin-top: 80px;
+  .tree-center{
+    
+    margin-top: 70px;
+  }
+}
+@media (max-width: 768px) {
+  .lear-1 ,.lear-2, .lear-3 {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .esc-1, .esc-2, .esc-3, .esc-4, .esc-5 {
+    display: none;
   }
 }
