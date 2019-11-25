@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
     <title>Селекторы</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css">
   </head>
   <body>
-    <header class="header">
+    <header class="d-flex justify-content-around" >
       <div class="menu-left">
         <span>Show</span>
-        <span class="trac">Trackr</span>
+        <span  class="text-primary">Trackr</span>
       </div>
 
-      <div class="menu-center">
+      <div class="d-flex">
         <a class="feauter" href="#send-1">Features</a>
         <a class="commun" href="send-2">Community</a>
         <a class="med" href="#send-3">Get Started</a>
@@ -22,13 +23,13 @@
 
       <div class="menu-right">
         <span class="log-in">Log in</span>
-        <button class="get">Get started</button>
+        <button class="text-primary" >bootstrap</button>
       </div>
 
     </header>
 
-    <section class="mario">
-      <div class="all">
+    <section class=" row d-flex justify-content-around">
+      <div class=>
         <h2 class="left-caption">Track your shows automatically</h2>
 
         <p class="with">
@@ -52,30 +53,30 @@
       </div>
 
       <div>
-        <img class="boba" src="images/img22.png" />
+        <img class=" " src="images/img22.png" />
       </div>
     </section>
 
-    <div class="bui-show">
-      <a id="send-1">Features</a>
-      <h2 class="bui">Built and customized for your habits</h2>
-      <p class="show">
+    <div class=" row text-center justify-content-center">
+      <a id="">Features</a>
+      <h2 class="">Built and customized for your habits</h2>
+      <p class=" ">
         ShowTrackr’s built-in machine learning and context-aware features
         guarantee that all the notifications and recommendations are always
         delivered to you in the perfect moment.
       </p>
     </div>
 
-    <div class="foot">
+    <div class="d-flex justify-content-between">
 
-      <div class="tree-left">
+      <div class="text-center">
 
         <div>
           <img class="treeang" src="images/img16.png">
         </div>
 
 
-        <span class="aut">Automated tracking</span>
+        <span class="">Automated tracking</span>
 
         <h6 class="trac-you">
           Track your favorite shows automatically without switching between
@@ -85,7 +86,7 @@
         <div class="lear-1">Learn more</div>
       </div>
 
-      <div class="tree-center">
+      <div class="text-center ">
 
         <div>
           <img class="harta" src="images/img17.png">
@@ -101,7 +102,7 @@
 
       </div>
 
-      <div class="tree-right">
+      <div class="text-center">
 
         <div>
           <img class="i-button" src="images/img18.png" />
@@ -120,17 +121,20 @@
 
     </div>
 
-    <div class="roll">
-      <img src="images/img13.png" />
-      <img src="images/img15.png" />
-      <img src="images/img14.png" />
-      <img src="images/img10.png" />
-      <img src="images/img11.png" />
-      <img src="images/img12.png" />
-      <img src="images/img25.png" />
+    <div class="container-fluid overflow-auto m90">
+      <div class="row d-flex flex-nowrap">
+        <img src="images/img13.png" />
+        <img src="images/img15.png" />
+        <img src="images/img14.png" />
+        <img src="images/img10.png" />
+        <img src="images/img11.png" />
+        <img src="images/img12.png" />
+        <img src="images/img25.png" />
+      </div>
     </div>
-    <section class="doom">
-      <div class="doom-left">
+    <section class=" row d-flex flex-nowrap">
+      <div class=" ">
+        <div class="col offset-1 my-auto">
         <h6 class="easy">Easy-to-use interfaces on every platform</h6>
 
         <p class="since">
@@ -151,21 +155,22 @@
           <img class="go3" src="images/img19.png" />
           <span class="int">Integrated Chat Platform</span><br />
         </div>
+        </div>
       </div>
 
       <div class="doom-right">
         <img class="down" src="images/img23.png" />
-        <img class="up" src="images/img22.png" />
+        <img class="" src="images/img22.png" />
       </div>
     </section>
 
-    <section class="black">
-      <div class="black-left">
+    <section class="row d-flex flex-nowrap bg-dark">
+      <div class="text-secondary">
         <a id="send-2"  class="communiti">Community</a>
+        <div class="col4 offset-1">
+         <h1 class="we">We believe in the power of community</h1>
 
-        <h1 class="we">We believe in the power of community</h1>
-
-        <p class="our">
+          <p class="our">
           Our goal is to create a product and service that you’re satisfied with
           and use it every day. This is why we’re constantly working on our
           services to make it better every day and really listen to what our
@@ -173,83 +178,84 @@
         </p>
 
         <p>Read more testimonials</p>
+        </div>
       </div>
-        <div class="colum-left">
+        <div class="col3 offset-1 p-0">
 
-          <div class="first-left-comment">
-            <h4 class="i-use">
+          <div class="bg-dark rounded p-4 m-2">
+            <h4 class="text-secondary">
               I use ShowTrackr every day, and it’s awesome! I track all of my TV
               shows in it. :)
             </h4>
-            <p class="data-1">Jan 18, 2018</p>
+            <p class="text-secondary">Jan 18, 2018</p>
           </div>
 
-          <div class="second-left-comment">
-            <span class="second-name">Patrick Martin</span>
+          <div class="bg-dark rounded p-4 m-2">
+            <span class="text-secondary">Patrick Martin</span>
             <img  class="img-tweet-1" src="images/img24.png">
-            <h4 class="showTrack-comment">
+            <h4 class="text-secondary">
               ShowTrackr is a real gem! I started using it a couple months ag
               completely changed the way how I watch TV shows. I can only
               recommend it!
             </h4>
-            <p class="data-2">Jan 18, 2018</p>
+            <p class="text-secondary">Jan 18, 2018</p>
           </div>
 
-          <div class="third-left-comment">
-            <spann class="third-name">Bruce Murphy</span>
+          <div class="bg-dark rounded p-4 m-2">
+            <spann class="text-secondary">Bruce Murphy</span>
               <img  class="img-tweet-2" src="images/img24.png">
-            <h4 class="I-use">
+            <h4 class="text-secondary">
               I use ShowTrackr every day, and it’s awesome! I track all of my TV
               shows in it. :)
             </h4>
-            <p class="data-3">Jan 18, 2018</p>
+            <p class="text-secondary">Jan 18, 2018</p>
           </div>
 
-          <div class="fourth-left-comment">
-            <span class="fourth-name">Crystal Perkins</span>
+          <div class="bg-dark rounded p-4 m-2">
+            <span class="text-secondary">Crystal Perkins</span>
             <img  class="img-tweet-3" src="images/img24.png">
-            <h4 class="show-track-comment-2" >
+            <h4 class="text-secondary" >
               ShowTrackr is a real gem! I started using it a couple months ago
               and it pletely changed the way how I watch TV shows. I can only
               recommend it!
             </h4>
-            <p class="data-4">Jan 18, 2018</p>
+            <p class="text-secondary">Jan 18, 2018</p>
           </div>
         </div>
 
-        <div class="colu-right">
+        <div class="col3 p-0 m-0">
 
-          <div class="first-right-comment">
-              <span class="first-right-name">Thomas Cruz</span>
+          <div class="bg-dark rounded p-4 m-2 mb-3">
+              <span class="text-secondary">Thomas Cruz</span>
               <img class="img-tweet-4"  src="images/img24.png">
-              <h4 class="right-ShowTrack">ShowTrackr is a real gem! I started using it a couple months ago
+              <h4 class="text-secondary">ShowTrackr is a real gem! I started using it a couple months ago
                 completely changed the way how I watch TV shows. I can only recommend it!
                </h4>
-              <p class=" data-5">Jan 18, 2018</p>
+              <p class="text-secondary">Jan 18, 2018</p>
           </div>
 
-          <div class="second-right-comment">
-              <span  class="second-right-name">Gregory Wallace</span>
+          <div class="bg-dark rounded p-4 m-2 mb-3">
+              <span  class="text-secondary">Gregory Wallace</span>
               <img  class="img-tweet-5" src="images/img24.png">
-              <h4 class="i-use">I use ShowTrackr every day,
+              <h4 class="text-secondary">I use ShowTrackr every day,
                  and it’s awesome! I track all of my TV shows in it. :) 
                 </h4>
-              <p class="data-6">Jan 18, 2018</p>
+              <p class="text-secondary">Jan 18, 2018</p>
           </div>
 
-          <div class=" third-right-comment">
-              <span class="third-right-name">Megan Walters</span>
+          <div class="bg-dark rounded p-4 m-2 mb-3">
+              <span class="text-secondary">Megan Walters</span>
               <img  class="img-tweet-6" src="images/img24.png">
-              <h4 class="i-watch">ShowTrackr is a real gem! I started using it a couple months ago 
+              <h4 class="text-secondary">ShowTrackr is a real gem! I started using it a couple months ago 
                  completely changed the way how I watch TV shows. I can only recommend it! 
                 </h4>
-              <p class="data-7">Jan 18, 2018</p>
+              <p class="text-secondary">Jan 18, 2018</p>
           </div>
 
-          <div class="fourth-right-comment">
-              <span class="fourth-right-name" >Andrew Cook</span>
+          <div class="bg-dark rounded p-4 m-2 mb-3">
+              <span class="text-secondary" >Andrew Cook</span>
               <img class="img-tweet-7" src="images/img24.png">
-              <h4 class="i-use-show">“I use ShowTrackr 
+              <h4 class="text-secondary">“I use ShowTrackr 
                 every day, and it’s awesome! I track all of my TV shows in it. :) “
               </h4>
               <p></p>
@@ -261,13 +267,13 @@
 
 
 
-    <div class="get-started">
+    <div class="container m40  text-center">
 
-      <a id="send-3">Get Started</a>
+      <a id="font-weight-light mb-4">Get Started</a>
 
-      <h6 class="tv">Start tracking your TV shows for free</h6>
+      <h6 class="display-4 font-weight-bold mb-4">Start tracking your TV shows for free</h6>
 
-      <p class="order">
+      <p class="mb-4">
         In order to start tracking your TV shows, all you have to do is enter your
         email address. Everything else will be taken care of by us. All you have
        to do is sit back, relax and enjoy your TV shows.
@@ -275,11 +281,11 @@
 
       <input class="mail" type="email" placeholder="your@email.com" />
 
-      <button class="ssb">Start tracking</button>
+      <button class="text-primary">Start tracking</button>
 
     </div>
 
-    <footer>
+    <footer class="container m90 text-center">
       <div class="last">
         
 
@@ -297,5 +303,14 @@
       </div>
 
     </footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
   </body>
 </html>
