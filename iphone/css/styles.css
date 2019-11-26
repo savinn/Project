@@ -4,6 +4,9 @@
   justify-content: space-around;
 }
 
+.head{
+  display: flex;
+}
 .feauter {
   padding-right: 50px;
   color: black;
@@ -262,6 +265,7 @@
 }
 
 .doom-right {
+  overflow: hidden;
   margin-left: 200px;
 }
 
