@@ -1,11 +1,12 @@
 .header {
-  margin-bottom: 20px;
+  margin-top: 30px;
   display: flex;
   justify-content: space-around;
 }
 
 .head{
   display: flex;
+  margin-top: 50px;
 }
 .feauter {
   padding-right: 50px;
@@ -27,23 +28,23 @@
 
 .treeang {
   object-fit: contain;
-  width: 40px;
-  height: 25px;
+  width: 60px;
+  height: 40px;
   border-radius: 14px;
   background-image: linear-gradient(to top, #9c09db, #1c0fd7);
 }
 
 .i-button {
-  width: 40px;
-  height: 25px;
+  width: 60px;
+  height: 40px;
   object-fit: contain;
   border-radius: 14px;
   background-image: linear-gradient(to top, #32fbfc, #3214f2);
 }
 
 .harta {
-  width: 40px;
-  height: 25px;
+  width: 60px;
+  height: 40px;
   object-fit: contain;
   border-radius: 14px;
   background-image: linear-gradient(to top, #f2c314, #fc3832);
@@ -72,8 +73,9 @@
 }
 
 .all {
-  margin-top: 130px;
-  margin-left: 170px;
+  text-align: center;
+  width: 700px;
+  margin-left: 150px;
 }
 
 .star {
@@ -88,9 +90,7 @@
 }
 
 .robot {
-  display: flex;
-  margin-top: 20px;
-  margin-left: -120px;
+  
 }
 
 .net {
@@ -114,23 +114,14 @@
 }
 
 .boba {
-  margin-top: 140px;
-  margin-top: 110px;
-  margin-right: 200px;
+  margin-left: 90px;
+  width: 300px;
 }
 
 .comp {
-  width: 124px;
-  height: 15px;
-  opacity: 0.3;
-  font-family: sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
+  
   letter-spacing: 2px;
-  color: #000000;
+  
 }
 
 .job {
@@ -168,31 +159,31 @@
 
 .bui-show {
   text-align: center;
+  margin-top: 150px;
+  margin: auto;
+  width: 610px;
 }
 
 .bui {
-  padding-right: 500px;
-  padding-left: 500px;
-  font-size: 40px;
   font-size: 40px;
 }
 
 .show {
-  padding-right: 300px;
-  padding-left: 300px;
-  margin-bottom: 20px;
   font-size: 21px;
 }
 
 .tree-left {
+  width: 350px;
   text-align: center;
 }
 
 .tree-center {
+  width: 350px;
   text-align: center;
 }
 
 .tree-right {
+  width: 350px;
   text-align: center;
 }
 
@@ -224,7 +215,7 @@
 
 .get-recom {
   font-size: 13px;
-  line-height: 4.6;
+  line-height: 1.5;
 }
 
 .lear-2 {
@@ -238,7 +229,7 @@
 
 .rec {
   font-size: 13px;
-  line-height: 3.2;
+  line-height: 1.5;
 }
 
 .lear-3 {
@@ -247,6 +238,7 @@
 }
 
 .foot {
+  margin: 35px;
   padding-top: 45px;
   display: flex;
   justify-content: space-between;
@@ -260,32 +252,40 @@
 }
 
 .doom {
-  margin-top: 150px;
+  margin-top: 100px;
   display: flex;
 }
 
+.doom-left{
+  width: 700px;
+margin-left: 150px;
+}
 .doom-right {
+  width: 700px;
   overflow: hidden;
   margin-left: 200px;
 }
-
+.bad-boy{
+  margin-top: 100px;
+}
 .black {
   display: flex;
-  width: 1440px;
-  height: 750px;
   background-color: #000000;
 }
 
 .black-left {
   padding-top: 150px;
 }
-
+.bad-boy2{
+  color: #1c0fd7;
+  text-align: center;
+  margin-top: 30px;
+}
 .colum-left {
   margin-left: 300px;
 }
 
 .first-left-comment {
-  height: 112px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.08);
 }
@@ -301,7 +301,6 @@
 
 .second-left-comment {
   width: 260px;
-  height: 211px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.08);
 }
@@ -330,7 +329,6 @@
 
 .third-left-comment {
   width: 260px;
-  height: 172px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.08);
 }
@@ -353,7 +351,6 @@
 
 .fourth-left-comment {
   width: 260px;
-  height: 211px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.08);
 }
@@ -382,7 +379,6 @@
 
 .first-right-comment {
   width: 260px;
-  height: 211px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.08);
 }
@@ -412,7 +408,6 @@
 
 .second-right-comment {
   width: 260px;
-  height: 172px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.08);
 }
@@ -441,7 +436,6 @@
 
 .third-right-comment {
   width: 260px;
-  height: 211px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.08);
 }
@@ -477,8 +471,8 @@
 }
 
 .fourth-right-comment {
-  height: 130px;
-  border-radius: 10px;
+
+  border-radius: 10px; 
   background-color: rgba(255, 255, 255, 0.08);
 }
 
@@ -500,27 +494,11 @@
 }
 
 .easy {
-  width: 460px;
-  height: 100px;
   font-size: 46px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.09;
-  letter-spacing: normal;
-  color: #000000;
 }
 
 .since {
-  width: 460px;
-  height: 112px;
-  opacity: 0.8;
   font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  color: #000000;
 }
 
 .up-down {
@@ -655,9 +633,7 @@
 
 @media (max-width: 768px) {
   .all {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+
   }
 }
 
